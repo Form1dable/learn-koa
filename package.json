@@ -1,0 +1,35 @@
+{
+	"name": "learn-koa",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/index.js",
+		"dev": "nodemon ./src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Form1dable/learn-koa.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Form1dable/learn-koa/issues"
+	},
+	"homepage": "https://github.com/Form1dable/learn-koa#readme",
+	"dependencies": {
+		"@koa/ejs": "^5.0.0",
+		"cors": "^2.8.5",
+		"koa": "^2.14.1",
+		"koa-error": "^3.2.0",
+		"koa-json": "^2.0.2",
+		"koa-logger": "^3.2.1",
+		"koa-ratelimit": "^5.0.1",
+		"koa-response-time": "^2.1.0",
+		"koa-router": "^12.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
